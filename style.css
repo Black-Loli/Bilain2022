@@ -1,0 +1,23 @@
+.green, #description span{
+    color: green;
+}
+
+.red, #description p{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+span {
+    font-family: 'Roboto Thin', sans-serif;
+}
+
+span + span {
+    font-family: 'Roboto Regular', sans-serif;
+}
