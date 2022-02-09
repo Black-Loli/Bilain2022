@@ -14,10 +14,10 @@ p{
     font-family: 'Roboto', sans-serif;
 }
 
-span {
+span:first-child {
     font-family: 'Roboto Thin', sans-serif;
 }
 
-span + span {
+span:nth-child(2) {
     font-family: 'Roboto Regular', sans-serif;
 }
