@@ -1,23 +1,157 @@
-.green, #description span{
-    color: green;
+h1 { 
+    color: red; 
+}
+h1 { 
+    color: blue; 
+}
+   
+.main-heading { 
+    color: red; 
+}
+        
+h1 { 
+    color: blue; 
 }
 
-.red, #description p{
-    color: red;
-}
-
-.blue{
+.example-3 {
     color: blue;
 }
 
-p{
-    font-family: 'Roboto', sans-serif;
+span {
+    color: black;
 }
 
-span:first-child {
-    font-family: 'Roboto Thin', sans-serif;
+.main {
+    color: rebeccapurple;
+    border: 2px solid #ccc;
+    padding: 1em;
 }
 
-span:nth-child(2) {
-    font-family: 'Roboto Regular', sans-serif;
+.special {
+    color: black;
+    font-weight: bold;
 }
+
+.example-5 {
+    color: green;
+}
+          
+.my-class-1 a {
+    color: inherit;
+}
+          
+.my-class-2 a {
+    color: initial;
+}
+          
+.my-class-3 a {
+    color: unset;
+}
+
+blockquote {
+    background-color: red;
+    border: 2px solid green;
+}
+        
+.fix-this {
+    all: unset;
+}
+
+h2 {
+    font-size: 2em;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+        
+.small {
+    font-size: 1em;
+}
+        
+.bright {
+    color: rebeccapurple;
+} 
+
+/* specificity: 0101 */
+#outer a {
+    background-color: red;
+}
+        
+/* specificity: 0201 */
+#outer #inner a {
+    background-color: blue;
+}
+
+/* specificity: 0104 */
+#outer div ul li a {
+    color: yellow;
+}
+
+/* specificity: 0113 */
+#outer div ul .nav a {
+    color: white;
+}
+
+/* specificity: 0024 */
+div div li:nth-child(2) a:hover {
+    border: 10px solid black;
+}
+
+/* specificity: 0023 */
+div li:nth-child(2) a:hover {
+    border: 10px dashed black;
+}
+
+/* specificity: 0033 */
+div div .nav:nth-child(2) a:hover {
+    border: 10px double black;
+}
+
+.example-8 a {
+    display: inline-block;
+    line-height: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}            
+
+#winning {
+    background-color: red;
+    border: 1px solid black;
+}
+    
+.example-9 .better {
+    background-color: gray;
+    border: none !important;
+}
+    
+.example-9 p {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}  
+
+#black {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+}
+    
+.example-10 .purple {
+    background-color: rgb(105, 2, 146);
+    border: none !important;
+}
+    
+.example-10 p {
+    background-color: rgb(255, 215, 128);
+    color: white;
+    padding: 5px;
+}  
