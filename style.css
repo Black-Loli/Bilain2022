@@ -38,6 +38,11 @@ p{
     margin-top: -15px;
 }
 
+li a{
+    color: #707070;
+    text-decoration: none;
+}
+
 h1{
     text-align: center;
     font-size: 70px;
