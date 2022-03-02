@@ -1,5 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
 }
 
 .container{
@@ -48,7 +50,7 @@ h1{
     font-size: 70px;
     margin: 10px 0;
     color: #333333;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .main{
@@ -67,7 +69,7 @@ h1{
 .basement{
     background: #333333;
     color: #bdbcbc;
-    margin: 30px 5px 5px 5px;
+    margin: 0;
     text-align: center;
     padding: 60px;
 }
@@ -98,4 +100,110 @@ h2{
     margin: 20px 0;
     font-weight: 400;
     font-size: 18px;
+}
+
+.pic{
+    margin: 0 0 1px 0;
+}
+
+.im{
+    margin-bottom: 30px;
+}
+
+.sot, .people{
+    display: flex;
+    justify-content: space-around;
+    align-content: stretch;
+}
+
+.sot .sots, .people .user{
+    border: 2px solid #bdbcbc;
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: left;
+    margin-bottom: 40px;
+    max-width: 350px;
+    min-width: 350px;
+    margin: 0 auto 50px;
+} 
+
+.sot .social, .people .users{
+    margin: 5px 10px 0;
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.sot .sots li{
+    display: inline-flex;
+    text-align: center;
+}
+
+.sot .sots img{
+    width: 100%;
+    max-width: 45px;
+}
+
+.sot .sots .face{
+    padding-top: 10px;
+    margin: 10px 25px 0;
+}
+
+.sot .sots .h2, .people .user .h2{
+    font-size: 15px;
+    color: #707070;
+
+}
+
+.people .user ul{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0 40px;
+}
+
+.people .user li{
+    display: flex;
+    align-items: center;
+    margin: 10px 0 10px 20px;
+}
+
+.people .user img{
+    max-width: 67px;
+
+}
+
+.people .user .h1{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 0 10px;
+}
+
+.people .user .h2{
+    margin: 0 0 0 10px;
+    
+}
+
+.sot .line, .people .line{
+    font-size: 0;
+    margin: 0 10px 30px;
+}
+
+.sot .line1, .sot .line2, .people .line1, .people .line2{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sot .line1, .people .line1{
+    height: 3px;
+    background: #333333;
+    width: 50%;
+    border-radius: 2px;
+}
+
+.sot .line2, .people .line2{
+    height: 1.5px;
+    background: #bdbcbc;
+    width: 50%;
+    border-radius: 2px;
 }
