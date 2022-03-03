@@ -110,7 +110,7 @@ h2{
     margin-bottom: 30px;
 }
 
-.sot, .people{
+.sot, .people, .new{
     display: flex;
     justify-content: space-around;
     align-content: stretch;
@@ -122,17 +122,29 @@ h2{
     font-size: 16px;
     text-decoration: none;
     text-align: left;
-    margin-bottom: 40px;
     max-width: 350px;
     min-width: 350px;
     margin: 0 auto 50px;
-} 
+}
 
-.sot .social, .people .users{
+.new .news{
+    border: 2px solid #bdbcbc;
+    padding: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: left;
+    margin: 0 auto 50px;
+    max-width: 734px;
+    min-width: 734px;
+}
+
+.sot .social, .people .users, .new .beeinterns{
     margin: 5px 10px 0;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
     padding-bottom: 10px;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 .sot .sots li{
@@ -150,10 +162,21 @@ h2{
     margin: 10px 25px 0;
 }
 
-.sot .sots .h2, .people .user .h2{
-    font-size: 15px;
+.sot .sots .h2, .people .user .h2, .new .news .h2{
+    font-size: 14px;
     color: #707070;
+}
 
+.people .user .h2, .new .news .h2{
+    text-align: left;
+}
+
+.new .news .h3{
+    text-align: left;
+    font-size: 12px;
+    color: #707070;
+    margin: 15px 0 0 10px;
+    font-weight: 400;
 }
 
 .people .user ul{
@@ -162,48 +185,108 @@ h2{
     margin: 50px 0 40px;
 }
 
-.people .user li{
+.people .user li, .new .news li{
     display: flex;
     align-items: center;
     margin: 10px 0 10px 20px;
 }
 
+.new .news li{
+    margin: 10px 50px 10px 10px;
+}
+
 .people .user img{
     max-width: 67px;
-
 }
 
-.people .user .h1{
-    font-size: 18px;
+.people .user .h1, .new .news .h1{
+    font-size: 19px;
     font-weight: 500;
     margin: 0 0 0 10px;
+    text-align: left;
 }
 
-.people .user .h2{
+.people .user .h2, .new .news .h2{
     margin: 0 0 0 10px;
-    
 }
 
-.sot .line, .people .line{
+.sot .line, .people .line, .new .line{
     font-size: 0;
     margin: 0 10px 30px;
+    max-width: 350px;
 }
 
-.sot .line1, .sot .line2, .people .line1, .people .line2{
+.new .line{
+    margin: 0 10px 5px;
+}
+
+.sot .line1, .sot .line2, .people .line1, .people .line2, .new .line1, .new .line2 {
     display: inline-block;
     vertical-align: middle;
 }
 
-.sot .line1, .people .line1{
+.sot .line1{
     height: 3px;
     background: #333333;
-    width: 50%;
+    width: 51%;
     border-radius: 2px;
 }
 
-.sot .line2, .people .line2{
+.sot .line2{
     height: 1.5px;
     background: #bdbcbc;
-    width: 50%;
+    width: 49%;
     border-radius: 2px;
+}
+
+.people .line1{
+    height: 3px;
+    background: #333333;
+    width: 49%;
+    border-radius: 2px;
+}
+
+.people .line2{
+    height: 1.5px;
+    background: #bdbcbc;
+    width: 51%;
+    border-radius: 2px;
+}
+
+.new .line1{
+    height: 3px;
+    background: #333333;
+    width: 63%;
+    border-radius: 2px;
+}
+
+.new .line2{
+    height: 1.5px;
+    background: #bdbcbc;
+    width: 37%;
+    border-radius: 2px;
+}
+
+.new .line3{
+    height: 1.5px;
+    background: #bdbcbc;
+    width: 98%;
+    border-radius: 2px;
+    margin: 0 10px;
+    max-width: 734px;
+    font-weight: 400;
+}
+
+.new .news .h1{
+    text-transform: uppercase;
+}
+
+.new .news ul{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0 20px;
+}
+
+.new .news img{
+   max-width: 104px;
 }
