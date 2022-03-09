@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41a74a03-08f4-4f46-be55-ca495a4da681" name="Changes" comment="">
+    <list default="true" id="41a74a03-08f4-4f46-be55-ca495a4da681" name="Changes" comment="Задание 12">
+      <change afterPath="$PROJECT_DIR$/image/Tile-Big-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/Tile-Big-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/Tile-Big-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/Tile-Big-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/video-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/video-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/video-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/video-04.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -20,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/hw-10" />
+        <entry key="$PROJECT_DIR$" value="feature/hw-11" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,6 +43,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -61,8 +70,25 @@
       <workItem from="1645123105085" duration="176000" />
       <workItem from="1645123372493" duration="43000" />
       <workItem from="1646206102924" duration="10000" />
-      <workItem from="1646264022750" duration="7876000" />
+      <workItem from="1646264022750" duration="8595000" />
+      <workItem from="1646338274139" duration="23000" />
+      <workItem from="1646520731328" duration="17254000" />
     </task>
+    <task id="LOCAL-00001" summary="Задание 11">
+      <created>1646312049219</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646312049220</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Задание 11">
+      <created>1646312169263</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1646312169263</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +105,12 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Задание 11" />
+    <MESSAGE value="Задание 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Задание 12" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

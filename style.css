@@ -110,7 +110,18 @@ h2{
     margin-bottom: 30px;
 }
 
-.sot, .people, .new{
+.sob_sot_people{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sot_people{
+    display: flex;
+    flex-direction: column;
+}
+
+.sot, .people, .new, .sob, .lek{
     display: flex;
     justify-content: space-around;
     align-content: stretch;
@@ -119,28 +130,45 @@ h2{
 .sot .sots, .people .user{
     border: 2px solid #bdbcbc;
     padding: 10px;
-    font-size: 16px;
     text-decoration: none;
     text-align: left;
-    max-width: 350px;
-    min-width: 350px;
-    margin: 0 auto 50px;
+    margin: 0 0 50px;
+    max-width: 326px;
+    min-width: 326px;
 }
 
 .new .news{
     border: 2px solid #bdbcbc;
     padding: 10px;
-    font-size: 16px;
+    text-decoration: none;
+    text-align: left;
+    margin: 0 0 50px;
+    max-width: 710px;
+    min-width: 710px;
+}
+
+.sob .sobt{
+    border: 2px solid #bdbcbc;
+    padding: 10px;
     text-decoration: none;
     text-align: left;
     margin: 0 auto 50px;
-    max-width: 734px;
-    min-width: 734px;
+    max-width: 786px;
+    min-width: 786px;
 }
 
-.sot .social, .people .users, .new .beeinterns{
+.lek .leks{
+    background: #f4f4f4;
+    padding: 10px;
+    text-decoration: none;
+    text-align: left;
+    margin: 0 auto 50px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.sot .social, .people .users, .new .beeinterns, .sob .sobtia, .lek .gray{
     margin: 5px 10px 0;
-    font-size: 20px;
     font-weight: 500;
     padding-bottom: 10px;
     text-align: left;
@@ -162,18 +190,17 @@ h2{
     margin: 10px 25px 0;
 }
 
-.sot .sots .h2, .people .user .h2, .new .news .h2{
-    font-size: 14px;
+.sot .sots .h4, .people .user .h5, .new .news .h4{
     color: #707070;
+    font-weight: 400;
 }
 
-.people .user .h2, .new .news .h2{
+.people .user .h5, .new .news .h4{
     text-align: left;
 }
 
-.new .news .h3{
+.new .news .h5{
     text-align: left;
-    font-size: 12px;
     color: #707070;
     margin: 15px 0 0 10px;
     font-weight: 400;
@@ -199,18 +226,23 @@ h2{
     max-width: 67px;
 }
 
-.people .user .h1, .new .news .h1{
-    font-size: 19px;
+.people .user .h4, .new .news .h3{
     font-weight: 500;
     margin: 0 0 0 10px;
     text-align: left;
 }
 
-.people .user .h2, .new .news .h2{
+.sob .sobt .h4{
+    font-weight: 500;
+    text-align: left;
+    margin: 10px 0 0;
+}
+
+.people .user .h5, .new .news .h4{
     margin: 0 0 0 10px;
 }
 
-.sot .line, .people .line, .new .line{
+.sot .line, .people .line, .new .line, .sob .line, .lek .line{
     font-size: 0;
     margin: 0 10px 30px;
     max-width: 350px;
@@ -220,7 +252,7 @@ h2{
     margin: 0 10px 5px;
 }
 
-.sot .line1, .sot .line2, .people .line1, .people .line2, .new .line1, .new .line2 {
+.sot .line1, .sot .line2, .people .line1, .people .line2, .new .line1, .new .line2, .sob .line1, .lek .line1 {
     display: inline-block;
     vertical-align: middle;
 }
@@ -277,7 +309,21 @@ h2{
     font-weight: 400;
 }
 
-.new .news .h1{
+.sob .line1{
+    height: 3px;
+    background: #333333;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.lek .line1{
+    height: 3px;
+    background: #333333;
+    width: 22%;
+    border-radius: 2px;
+}
+
+.new .news .h3{
     text-transform: uppercase;
 }
 
@@ -289,4 +335,150 @@ h2{
 
 .new .news img{
    max-width: 104px;
+}
+
+.sob .sobt ul{
+    padding-left: 0;
+    margin: 0 0 5px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sob .sobt li{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 10px;
+    max-width: 360px;
+    min-width: 360px;
+}
+
+.sob .sobt .div{
+    height: 177px;
+}
+
+.sob .sobt .tile1{
+    height: 100%;
+    width: 100%;
+    background-image: url("./image/Tile-Big-01.png");
+    background-size: cover;
+    background-repeat: round;
+}
+
+.sob .sobt .tile2{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: round;
+    background-image: url("./image/Tile-Big-02.png");
+}
+
+.sob .sobt .tile3{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: round;
+    background-image: url("./image/Tile-Big-03.png");
+}
+
+.sob .sobt .tile4{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: round;
+    background-image: url("./image/Tile-Big-04.png");
+}
+
+.sob .sobt .tile1 .h61{
+    background: #468eda;
+    text-transform: uppercase;
+    text-align: center;
+    width: 7%;
+    padding: 5px;
+    margin-top: 155px;
+    position: absolute;
+}
+
+.sob .sobt .tile2 .h62{
+    background: #5bc08c;
+    text-transform: uppercase;
+    text-align: center;
+    width: 7%;
+    padding: 5px;
+    margin-top: 155px;
+    position: absolute;
+}
+
+.sob .sobt .tile3 .h63{
+    background: #c075b8;
+    text-transform: uppercase;
+    text-align: center;
+    width: 7%;
+    padding: 5px;
+    margin-top: 155px;
+    position: absolute;
+}
+
+.sob .sobt .tile4 .h64{
+    background: #e1b173;
+    text-transform: uppercase;
+    text-align: center;
+    width: 9%;
+    padding: 5px;
+    margin-top: 155px;
+    position: absolute;
+}
+
+.sob .sobt .fix{
+    display: flex;
+    flex-direction: row;
+}
+
+.sob .sobt .fix2{
+    display: flex;
+    flex-direction: row;
+}
+
+.sob .sobt .h5{
+    text-align: left;
+    color: #707070;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.sob .sobt .a{
+    display: flex;
+    justify-content: center;
+    background: #60b061;
+    color: #ffffff;
+    padding: 30px 30px;
+    width: 30%;
+    border-radius: 5px;
+    margin: 60px auto 0;
+}
+
+.lek .leks .li1{
+    background-image: url("./image/video-01.png");
+    width: 25%;
+}
+
+.lek .leks .li2{
+    background-image: url("./image/video-02.png");
+    width: 25%;
+}
+
+.lek .leks .li3{
+    background-image: url("./image/video-03.png");
+    width: 25%;
+}
+
+.lek .leks .li4{
+    background-image: url("./image/video-04.png");
+    width: 25%;
+}
+
+.lek .leks li{
+    margin-bottom: 20px;
+    height: 200px;
 }
