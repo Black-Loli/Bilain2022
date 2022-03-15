@@ -25,6 +25,8 @@ body{
     color: #707070;
     padding-top: 25px;
     margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .cap .start{
@@ -37,7 +39,6 @@ p{
 
 .cap .contacts{
     text-align: right;
-    margin-top: -15px;
 }
 
 li a{
@@ -60,10 +61,12 @@ h1{
     padding: 20px;
     font-size: 15px;
     border-radius: 5px;
+    display: flex;
+    justify-content: flex-start
 }
 
 .main a{
-    padding: 10px;
+    padding: 0 10px;
 }
 
 .basement{
@@ -81,8 +84,6 @@ h1{
 ul{
     padding-left: 0;
     margin: 0 0 5px 0;
-    display: flex;
-    justify-content: center;
 }
 
 li{
@@ -108,10 +109,14 @@ h2{
 
 .pic{
     margin: 0 0 1px 0;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .im{
     margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .sob_sot_people, .new_reg{
@@ -461,6 +466,7 @@ h2{
 .sob .sobt .fix{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .sob .sobt .fix2{
@@ -504,6 +510,10 @@ h2{
 .lek .leks .li4{
     background-image: url("./image/video-04.png");
     width: 25%;
+}
+
+.lek .leks ul{
+    display: flex;
 }
 
 .lek .leks li{
