@@ -4,9 +4,48 @@ body{
     margin: 0;
 }
 
-.container{
-    width: 1200px;
-    margin: 0 auto;
+@media (max-width: 414px){
+    .container{
+        width: 100%;
+        margin: 0;
+    }
+
+    .basement{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        width: 100%;
+        margin: 0;
+    }
+
+    .basement{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1440px){
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .basement{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .basement{
+        width: 100%;
+    }
 }
 
 .cap ul{ 
@@ -74,7 +113,7 @@ h1{
     color: #bdbcbc;
     margin: 0;
     text-align: center;
-    padding: 60px;
+    padding: 60px 0;
 }
 
 .basement h4{
@@ -84,6 +123,9 @@ h1{
 ul{
     padding-left: 0;
     margin: 0 0 5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 li{
@@ -136,9 +178,8 @@ h2{
     align-content: stretch;
 }
 
-.reg{
-    max-width: 326px;
-    min-width: 326px;
+.reg, .sot_people{
+    width: 29%;
 }
 
 .sot .sots, .people .user{
@@ -147,10 +188,8 @@ h2{
     text-decoration: none;
     text-align: left;
     margin: 0 0 50px;
-    max-width: 326px;
-    min-width: 326px;
+    width: 100%;
 }
-
 
 .reg .regs {
     border: 2px solid #bdbcbc;
@@ -160,14 +199,17 @@ h2{
     margin: 0 0 50px;
 }
 
+.sob, .new{
+    width: 61%;
+}
+
 .sob .sobt, .new .news{
     border: 2px solid #bdbcbc;
     padding: 10px;
     text-decoration: none;
     text-align: left;
     margin: 0 auto 50px;
-    max-width: 786px;
-    min-width: 786px;
+    width: 100%;
 }
 
 .lek .leks{
@@ -176,8 +218,7 @@ h2{
     text-decoration: none;
     text-align: left;
     margin: 0 auto 50px;
-    max-width: 100%;
-    min-width: 100%;
+    width: 100%;
 }
 
 .sot .social, .people .users, .new .beeinterns, .sob .sobtia, .lek .gray, .reg .register{
@@ -200,7 +241,7 @@ h2{
 
 .sot .sots .face{
     padding-top: 10px;
-    margin: 10px 25px 0;
+    margin: 10px 0;
 }
 
 .sot .sots .h4, .people .user .h5, .new .news .h4{
@@ -258,13 +299,13 @@ h2{
 .sot .line, .people .line, .new .line, .sob .line, .lek .line{
     font-size: 0;
     margin: 0 10px 30px;
-    max-width: 350px;
+    width: 95%;
 }
 
 .reg .line{
     font-size: 0;
     margin: 0 10px 20px;
-    max-width: 350px;
+    width: 95%;
 }
 
 .new .line{
@@ -345,7 +386,7 @@ h2{
 .sob .line1{
     height: 3px;
     background: #333333;
-    width: 100%;
+    width: 48%;
     border-radius: 2px;
 }
 
@@ -383,8 +424,7 @@ h2{
     flex-direction: column;
     align-items: stretch;
     margin: 10px;
-    max-width: 360px;
-    min-width: 360px;
+    width: 49%;
 }
 
 .sob .sobt .div{
