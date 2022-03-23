@@ -4,50 +4,6 @@ body{
     margin: 0;
 }
 
-@media (max-width: 414px){
-    .container{
-        width: 100%;
-        margin: 0;
-    }
-
-    .basement{
-        width: 100%;
-    }
-}
-
-@media (max-width: 768px){
-    .container{
-        width: 100%;
-        margin: 0;
-    }
-
-    .basement{
-        width: 100%;
-    }
-}
-
-@media (max-width: 1440px){
-    .container{
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .basement{
-        width: 100%;
-    }
-}
-
-@media (min-width: 1440px) {
-    .container{
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .basement{
-        width: 100%;
-    }
-}
-
 .cap ul{ 
     margin: 0;
     display: block;
@@ -607,4 +563,37 @@ h2{
 
 .reg button:active{
     background-color: #4b966f;
+}
+
+@media (min-width: 414px){
+    .container{
+        width: 100%;
+        margin: 0;
+    }
+
+    .basement{
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px){
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .basement{
+        width: 100%;
+    }
+}
+
+@media (min-width: 1440px){
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .basement{
+        width: 100%;
+    }
 }
