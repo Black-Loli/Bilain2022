@@ -69,7 +69,6 @@ h1{
     color: #bdbcbc;
     margin: 0;
     text-align: center;
-    padding: 60px 0;
 }
 
 .basement h4{
@@ -105,21 +104,20 @@ h2{
     font-size: 18px;
 }
 
-.pic{
-    margin: 0 0 1px 0;
-    display: flex;
-    justify-content: space-evenly;
+.img1 li, .img2 li{
+    width: 50%;
 }
 
-.im{
-    margin-bottom: 30px;
+.pic img, .im img{
+    width: 100%;
+}
+
+.img, .img1, .img2{
     display: flex;
-    justify-content: space-evenly;
 }
 
 .sob_sot_people, .new_reg{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -132,10 +130,6 @@ h2{
     display: flex;
     justify-content: space-around;
     align-content: stretch;
-}
-
-.reg, .sot_people{
-    width: 29%;
 }
 
 .sot .sots, .people .user{
@@ -153,10 +147,6 @@ h2{
     text-decoration: none;
     text-align: left;
     margin: 0 0 50px;
-}
-
-.sob, .new{
-    width: 61%;
 }
 
 .sob .sobt, .new .news{
@@ -380,7 +370,6 @@ h2{
     flex-direction: column;
     align-items: stretch;
     margin: 10px;
-    width: 49%;
 }
 
 .sob .sobt .div{
@@ -423,7 +412,7 @@ h2{
     background: #468eda;
     text-transform: uppercase;
     text-align: center;
-    width: 5%;
+    width: 55px;
     padding: 5px;
     margin-top: 155px;
     position: absolute;
@@ -433,7 +422,7 @@ h2{
     background: #5bc08c;
     text-transform: uppercase;
     text-align: center;
-    width: 4%;
+    width: 55px;
     padding: 5px;
     margin-top: 155px;
     position: absolute;
@@ -443,7 +432,7 @@ h2{
     background: #c075b8;
     text-transform: uppercase;
     text-align: center;
-    width: 4%;
+    width: 55px;
     padding: 5px;
     margin-top: 155px;
     position: absolute;
@@ -453,21 +442,16 @@ h2{
     background: #e1b173;
     text-transform: uppercase;
     text-align: center;
-    width: 6%;
+    width: 100px;
     padding: 5px;
     margin-top: 155px;
     position: absolute;
 }
 
-.sob .sobt .fix{
+.sob .sobt .fix, .sob .sobs .fix2{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-}
-
-.sob .sobt .fix2{
-    display: flex;
-    flex-direction: row;
+    width: 96%;
 }
 
 .sob .sobt .h5{
@@ -568,22 +552,109 @@ h2{
 @media (min-width: 414px){
     .container{
         width: 100%;
-        margin: 0;
+        margin: 0 auto;
     }
 
     .basement{
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .pic, .im{
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .img{
+        flex-direction: column;
+    }
+
+    .pic .li, .im .li{
+        width: 100%;
+    }
+
+    .main, .lek{
+        overflow: hidden;
+    }
+
+    .sob_sot_people, .new_reg{
+        flex-direction: column;
+    }
+
+    .sob, .new, .sot, .people{
+        width: 100%;
+    }
+
+    .sot_people{
+        width: 100%;
+    }
+
+    .reg{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .sob .sobt .fix, .sob .sobs .fix2{
+        flex-direction: column;
+    }
+
+    .sob .sobt li{
         width: 100%;
     }
 }
 
 @media (min-width: 768px){
     .container{
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
     }
 
     .basement{
         width: 100%;
+        padding: 40px 0;
+    }
+
+    .pic, .im{
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 50%;
+    }
+
+    .img{
+        flex-direction: row;
+    }
+
+    .pic .li, .im .li{
+        width: 99%;
+    }
+
+    .main, .lek{
+        overflow: visible;
+    }
+
+    .sob_sot_people, .new_reg{
+        flex-direction: row;
+    }
+
+    .sob, .new{
+        width: 61%;
+    }
+
+    .reg, .sot_people{
+        width: 29%;
+    }
+
+    .sob .sobt .fix, .sob .sobs .fix2{
+        flex-direction: row;
+    }
+
+    .sob .sobt li{
+        width: 49%;
     }
 }
 
@@ -595,5 +666,46 @@ h2{
 
     .basement{
         width: 100%;
+        padding: 60px 0;
+    }
+
+    .pic, .im{
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 50%;
+    }
+
+    .img{
+        flex-direction: row;
+    }
+
+    .pic .li, .im .li{
+        width: 99%;
+    }
+
+    .main, .lek{
+        overflow: visible;
+    }
+
+    .sob_sot_people, .new_reg{
+        flex-direction: row;
+    }
+
+    .sob, .new{
+        width: 61%;
+    }
+
+    .reg, .sot_people{
+        width: 29%;
+    }
+
+    .sob .sobt .fix, .sob .sobs .fix2{
+        flex-direction: row;
+    }
+
+    .sob .sobt li{
+        width: 49%;
     }
 }
