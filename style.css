@@ -2,7 +2,6 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     margin: 0;
-    overflow-y: hidden;
     overflow-x: visible;
 }
 
@@ -584,7 +583,7 @@ h2{
 
     .main0 .main, .lek .leks{
         width: 1200px;
-        overflow: auto;
+        overflow-y: auto;
     }
 
     .sob_sot_people, .new_reg{
@@ -642,7 +641,7 @@ h2{
 
     .main0 .main, .lek .leks{
         width: 1200px;
-        overflow: visible;
+        overflow-y: visible;
     }
 
     .sob_sot_people, .new_reg{
@@ -695,7 +694,7 @@ h2{
 
     .main0 .main, .lek .leks{
         width: 100%;
-        overflow: visible;
+        overflow-y: visible;
     }
 
     .sob_sot_people, .new_reg{
