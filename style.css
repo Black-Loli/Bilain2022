@@ -582,7 +582,8 @@ h2{
 
     .main0 .main, .lek .leks{
         width: 1200px;
-        overflow-y: auto;
+        overflow-x: scroll;
+        scrollbar-width: none;
     }
 
     .sob_sot_people, .new_reg{
@@ -640,7 +641,7 @@ h2{
 
     .main0 .main, .lek .leks{
         width: 1200px;
-        overflow-y: visible;
+        overflow-x: visible;
     }
 
     .sob_sot_people, .new_reg{
@@ -693,7 +694,7 @@ h2{
 
     .main0 .main, .lek .leks{
         width: 100%;
-        overflow-y: visible;
+        overflow-x: visible;
     }
 
     .sob_sot_people, .new_reg{
