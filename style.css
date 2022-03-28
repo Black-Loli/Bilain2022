@@ -112,6 +112,66 @@ h2{
     width: 100%;
 }
 
+.pic .li, .pic .li1, .pic .li2, .im .li3, .im .li4, .im .li5{
+    background-image: url("./image/Big-1-800.png");
+    height: 405px;
+    background-size: cover;
+    background-repeat: round;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.pic .li1{
+    background-image: url("./image/Small-01.png");
+    height: 202.5px;
+}
+
+.pic .li2{
+    background-image: url("./image/Small-02.png");
+    height: 202.5px;
+}
+
+.im .li3{
+    background-image: url("./image/Big-2-800.png");
+}
+
+.im .li4{
+    background-image: url("./image/Small-03.png");
+    height: 202.5px;
+}
+
+.im .li5{
+    background-image: url("./image/Small-04.png");
+    height: 202.5px;
+}
+
+.pic .li .h1, .pic .li .h2, .im .li3 .h1, .im .li3 .h2{
+    color: #ffffff;
+    position: absolute;
+    top: 130px;
+    left: 150px;
+}
+
+.pic .li .h2, .im .li3 .h2{
+    top: 215px;
+    left: 220px;
+    font-size: 20px;
+}
+
+.pic .li1 .h1, .pic .li1 .h2, .pic .li2 .h1, .pic .li2 .h2, .im .li4 .h1, .im .li4 .h2, .im .li5 .h1, .im .li5 .h2{
+    color: #ffffff;
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    font-size: 30px;
+}
+
+.pic .li1 .h2, .pic .li2 .h2, .im .li4 .h2, .im .li5 .h2{
+    top: 100px;
+    left: 120px;
+    font-size: 10px;
+}
+
 .img, .img1, .img2{
     display: flex;
 }
@@ -382,6 +442,7 @@ h2{
     background-image: url("./image/Tile-Big-01.png");
     background-size: cover;
     background-repeat: round;
+    position: relative;
 }
 
 .sob .sobt .tile2{
@@ -390,6 +451,7 @@ h2{
     background-size: cover;
     background-repeat: round;
     background-image: url("./image/Tile-Big-02.png");
+    position: relative;
 }
 
 .sob .sobt .tile3{
@@ -398,6 +460,7 @@ h2{
     background-size: cover;
     background-repeat: round;
     background-image: url("./image/Tile-Big-03.png");
+    position: relative;
 }
 
 .sob .sobt .tile4{
@@ -406,6 +469,7 @@ h2{
     background-size: cover;
     background-repeat: round;
     background-image: url("./image/Tile-Big-04.png");
+    position: relative;
 }
 
 .sob .sobt .tile1 .h61{
@@ -414,8 +478,9 @@ h2{
     text-align: center;
     width: 55px;
     padding: 5px;
-    margin-top: 155px;
+    margin: 0;
     position: absolute;
+    bottom: 0;
 }
 
 .sob .sobt .tile2 .h62{
@@ -424,8 +489,9 @@ h2{
     text-align: center;
     width: 55px;
     padding: 5px;
-    margin-top: 155px;
+    margin: 0;
     position: absolute;
+    bottom: 0;
 }
 
 .sob .sobt .tile3 .h63{
@@ -434,8 +500,9 @@ h2{
     text-align: center;
     width: 55px;
     padding: 5px;
-    margin-top: 155px;
+    margin: 0;
     position: absolute;
+    bottom: 0;
 }
 
 .sob .sobt .tile4 .h64{
@@ -444,8 +511,9 @@ h2{
     text-align: center;
     width: 100px;
     padding: 5px;
-    margin-top: 155px;
+    margin: 0;
     position: absolute;
+    bottom: 0;
 }
 
 .sob .sobt .fix, .sob .sobs .fix2{
