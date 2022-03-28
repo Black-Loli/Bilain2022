@@ -577,7 +577,8 @@ h2{
     }
 
     .main, .lek{
-        overflow: hidden;
+        width: 1200px;
+        overflow: auto;
     }
 
     .sob_sot_people, .new_reg{
@@ -634,6 +635,7 @@ h2{
     }
 
     .main, .lek{
+        width: 1200px;
         overflow: visible;
     }
 
@@ -686,6 +688,7 @@ h2{
     }
 
     .main, .lek{
+        width: 100%;
         overflow: visible;
     }
 
