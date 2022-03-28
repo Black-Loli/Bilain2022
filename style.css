@@ -64,6 +64,10 @@ h1{
     padding: 0 10px;
 }
 
+.main0, .lek{
+    overflow: hidden;
+}
+
 .basement{
     background: #333333;
     color: #bdbcbc;
@@ -576,9 +580,9 @@ h2{
         width: 100%;
     }
 
-    .main, .lek{
+    .main0 .main, .lek .leks{
         width: 1200px;
-        overflow: scroll;
+        overflow: auto;
     }
 
     .sob_sot_people, .new_reg{
@@ -634,7 +638,7 @@ h2{
         width: 99%;
     }
 
-    .main, .lek{
+    .main0 .main, .lek .leks{
         width: 1200px;
         overflow: visible;
     }
@@ -687,7 +691,7 @@ h2{
         width: 99%;
     }
 
-    .main, .lek{
+    .main0 .main, .lek .leks{
         width: 100%;
         overflow: visible;
     }
