@@ -578,7 +578,7 @@ h2{
 
     .main, .lek{
         width: 1200px;
-        overflow: auto;
+        overflow: scroll;
     }
 
     .sob_sot_people, .new_reg{
