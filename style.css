@@ -16,7 +16,7 @@ body{
 
 .cap li {
     display: inline-block;
-    padding: 0px 10px;
+    padding: 0 10px;
 }
 
 .cap{
@@ -74,6 +74,10 @@ h1{
     padding: 60px;
 }
 
+.basement h4{
+    font-weight: 400;
+}
+
 ul{
     padding-left: 0;
     margin: 0 0 5px 0;
@@ -110,7 +114,7 @@ h2{
     margin-bottom: 30px;
 }
 
-.sob_sot_people{
+.sob_sot_people, .new_reg{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -121,10 +125,15 @@ h2{
     flex-direction: column;
 }
 
-.sot, .people, .new, .sob, .lek{
+.sot, .people, .new, .sob, .lek, .reg{
     display: flex;
     justify-content: space-around;
     align-content: stretch;
+}
+
+.reg{
+    max-width: 326px;
+    min-width: 326px;
 }
 
 .sot .sots, .people .user{
@@ -137,17 +146,16 @@ h2{
     min-width: 326px;
 }
 
-.new .news{
+
+.reg .regs {
     border: 2px solid #bdbcbc;
     padding: 10px;
     text-decoration: none;
     text-align: left;
     margin: 0 0 50px;
-    max-width: 710px;
-    min-width: 710px;
 }
 
-.sob .sobt{
+.sob .sobt, .new .news{
     border: 2px solid #bdbcbc;
     padding: 10px;
     text-decoration: none;
@@ -167,7 +175,7 @@ h2{
     min-width: 100%;
 }
 
-.sot .social, .people .users, .new .beeinterns, .sob .sobtia, .lek .gray{
+.sot .social, .people .users, .new .beeinterns, .sob .sobtia, .lek .gray, .reg .register{
     margin: 5px 10px 0;
     font-weight: 500;
     padding-bottom: 10px;
@@ -248,11 +256,17 @@ h2{
     max-width: 350px;
 }
 
+.reg .line{
+    font-size: 0;
+    margin: 0 10px 20px;
+    max-width: 350px;
+}
+
 .new .line{
     margin: 0 10px 5px;
 }
 
-.sot .line1, .sot .line2, .people .line1, .people .line2, .new .line1, .new .line2, .sob .line1, .lek .line1 {
+.sot .line1, .sot .line2, .people .line1, .people .line2, .new .line1, .new .line2, .sob .line1, .lek .line1, .reg .line1, .reg .line2 {
     display: inline-block;
     vertical-align: middle;
 }
@@ -265,7 +279,7 @@ h2{
 }
 
 .sot .line2{
-    height: 1.5px;
+    height: 2px;
     background: #bdbcbc;
     width: 49%;
     border-radius: 2px;
@@ -279,7 +293,7 @@ h2{
 }
 
 .people .line2{
-    height: 1.5px;
+    height: 2px;
     background: #bdbcbc;
     width: 51%;
     border-radius: 2px;
@@ -293,14 +307,28 @@ h2{
 }
 
 .new .line2{
-    height: 1.5px;
+    height: 2px;
     background: #bdbcbc;
     width: 37%;
     border-radius: 2px;
 }
 
+.reg .line1{
+    height: 3px;
+    background: #333333;
+    width: 75%;
+    border-radius: 2px;
+}
+
+.reg .line2{
+    height: 2px;
+    background: #bdbcbc;
+    width: 25%;
+    border-radius: 2px;
+}
+
 .new .line3{
-    height: 1.5px;
+    height: 2px;
     background: #bdbcbc;
     width: 98%;
     border-radius: 2px;
@@ -394,7 +422,7 @@ h2{
     background: #468eda;
     text-transform: uppercase;
     text-align: center;
-    width: 7%;
+    width: 5%;
     padding: 5px;
     margin-top: 155px;
     position: absolute;
@@ -404,7 +432,7 @@ h2{
     background: #5bc08c;
     text-transform: uppercase;
     text-align: center;
-    width: 7%;
+    width: 4%;
     padding: 5px;
     margin-top: 155px;
     position: absolute;
@@ -414,7 +442,7 @@ h2{
     background: #c075b8;
     text-transform: uppercase;
     text-align: center;
-    width: 7%;
+    width: 4%;
     padding: 5px;
     margin-top: 155px;
     position: absolute;
@@ -424,7 +452,7 @@ h2{
     background: #e1b173;
     text-transform: uppercase;
     text-align: center;
-    width: 9%;
+    width: 6%;
     padding: 5px;
     margin-top: 155px;
     position: absolute;
@@ -481,4 +509,52 @@ h2{
 .lek .leks li{
     margin-bottom: 20px;
     height: 200px;
+}
+
+.reg .regs input{
+    margin-bottom: 15px;
+    margin-left: 5px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid #bdbcbc;
+    padding: 15px 10px;
+    color: #333333;
+}
+
+.reg .regs h5{
+    color: #707070;
+    margin: 0 10px 15px;
+    font-weight: 700;
+}
+
+.reg input:hover{
+    border-color: #707070;
+}
+
+.reg input:active{
+    border: 2px solid #333333;
+}
+
+.reg input:focus {
+    border: 2px solid #333333;
+}
+
+.reg button{
+    display: flex;
+    justify-content: center;
+    width: 36%;
+    margin: 0 5px 0 auto;
+    padding: 15px 10px;
+    color: #ffffff;
+    background-color: #5bc08c;
+    border: 0;
+    border-radius: 10px;
+}
+
+.reg button:hover{
+    background-color: #58b483;
+}
+
+.reg button:active{
+    background-color: #4b966f;
 }
