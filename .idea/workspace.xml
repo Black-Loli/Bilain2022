@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41a74a03-08f4-4f46-be55-ca495a4da681" name="Changes" comment="Задание 15">
+    <list default="true" id="41a74a03-08f4-4f46-be55-ca495a4da681" name="Changes" comment="Правки в 15 задании">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
@@ -73,6 +73,9 @@
       <workItem from="1647810131288" duration="5447000" />
       <workItem from="1647967967070" duration="3210000" />
       <workItem from="1648059207086" duration="6272000" />
+      <workItem from="1648492891151" duration="329000" />
+      <workItem from="1648502314376" duration="603000" />
+      <workItem from="1648567522417" duration="1199000" />
       <workItem from="1648492891151" duration="4472000" />
     </task>
     <task id="LOCAL-00001" summary="Задание 11">
@@ -124,6 +127,77 @@
       <option name="project" value="LOCAL" />
       <updated>1648059972571</updated>
     </task>
+    <task id="LOCAL-00008" summary="Правки в 15 задании">
+      <created>1648497826905</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1648497826905</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Правки в 15 задании">
+      <created>1648498312222</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1648498312222</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Правки в 15 задании">
+      <created>1648498654092</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1648498654093</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Правки в 15 задании">
+      <created>1648498821958</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1648498821958</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Правки в 15 задании">
+      <created>1648499022438</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1648499022438</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Правки в 15 задании">
+      <created>1648499449962</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1648499449962</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Правки в 15 задании">
+      <created>1648500114357</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1648500114357</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Правки в 15 задании">
+      <created>1648500372606</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1648500372606</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Правки в 15 задании">
+      <created>1648500652819</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1648500652819</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Правки в 15 задании">
+      <created>1648501002922</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1648501002922</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <task id="LOCAL-00008" summary="Задание 15">
       <created>1648493287949</created>
       <option name="number" value="00008" />
@@ -163,6 +237,8 @@
     <MESSAGE value="Задание 13" />
     <MESSAGE value="Задание 14" />
     <MESSAGE value="Работа с @media" />
+    <MESSAGE value="Правки в 15 задании" />
+    <option name="LAST_COMMIT_MESSAGE" value="Правки в 15 задании" />
     <MESSAGE value="Задание 15" />
     <option name="LAST_COMMIT_MESSAGE" value="Задание 15" />
   </component>
