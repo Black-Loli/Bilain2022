@@ -292,8 +292,23 @@ h2 {
     margin: 10px 50px 10px 10px;
 }
 
+.people .user li{
+    overflow: hidden;
+    position: relative;
+    height: 80px;
+}
+
+.people .user .info{
+    margin-left: 80px;
+}
+
 .people .user img {
-    max-width: 67px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
 }
 
 .people .user .h4, .new .news .h3 {
@@ -668,7 +683,7 @@ h2 {
     }
 
     .main0 .main::-webkit-scrollbar,
-    .lek .leks::-webkit-scrollbar {
+    .lek::-webkit-scrollbar{
         width: 0;
         height: 0;
     }
