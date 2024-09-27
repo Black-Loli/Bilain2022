@@ -1,15 +1,11 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     margin: 0;
+    overflow-x: hidden;
 }
 
-.container{
-    width: 1200px;
-    margin: 0 auto;
-}
-
-.cap ul{ 
+.cap ul {
     margin: 0;
     display: block;
 }
@@ -19,7 +15,7 @@ body{
     padding: 0 10px;
 }
 
-.cap{
+.cap {
     font-size: 13px;
     list-style-type: none;
     color: #707070;
@@ -29,24 +25,24 @@ body{
     justify-content: space-between;
 }
 
-.cap .start{
+.cap .start {
     text-align: left;
 }
 
-p{
+p {
     margin-top: 10px;
 }
 
-.cap .contacts{
+.cap .contacts {
     text-align: right;
 }
 
-li a{
+li a {
     color: #707070;
     text-decoration: none;
 }
 
-h1{
+h1 {
     text-align: center;
     font-size: 70px;
     margin: 10px 0;
@@ -54,7 +50,7 @@ h1{
     font-weight: 400;
 }
 
-.main{
+.main {
     background: #333333;
     color: #ffffff;
     margin: 30px 0;
@@ -65,33 +61,45 @@ h1{
     justify-content: flex-start
 }
 
-.main a{
+.main a {
     padding: 0 10px;
 }
 
-.basement{
+.main0, .lek {
+    overflow-x: scroll;
+
+}
+
+.main0::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.basement {
     background: #333333;
     color: #bdbcbc;
     margin: 0;
     text-align: center;
-    padding: 60px;
 }
 
-.basement h4{
+.basement h4 {
     font-weight: 400;
 }
 
-ul{
+ul {
     padding-left: 0;
     margin: 0 0 5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-li{
+li {
     list-style-type: none;
     margin-right: 5px;
 }
 
-.heading{
+.heading {
     font-weight: 700;
     color: #333333;
     text-align: left;
@@ -99,7 +107,7 @@ li{
     font-size: 50px;
 }
 
-h2{
+h2 {
     color: #333333;
     text-align: left;
     margin: 20px 0;
@@ -107,50 +115,42 @@ h2{
     font-size: 18px;
 }
 
-.pic{
-    margin: 0 0 1px 0;
-    display: flex;
-    justify-content: space-evenly;
+.img1 li, .img2 li {
+    width: 50%;
 }
 
-.im{
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: space-evenly;
+.pic img, .im img {
+    width: 100%;
 }
 
-.sob_sot_people, .new_reg{
+.img, .img1, .img2 {
     display: flex;
-    flex-direction: row;
+}
+
+.sob_sot_people, .new_reg {
+    display: flex;
     justify-content: space-between;
 }
 
-.sot_people{
+.sot_people {
     display: flex;
     flex-direction: column;
 }
 
-.sot, .people, .new, .sob, .lek, .reg{
+.sot, .people, .new, .sob, .reg {
     display: flex;
     justify-content: space-around;
     align-content: stretch;
 }
 
-.reg{
-    max-width: 326px;
-    min-width: 326px;
-}
-
-.sot .sots, .people .user{
+.sot .sots, .people .user {
     border: 2px solid #bdbcbc;
     padding: 10px;
     text-decoration: none;
     text-align: left;
     margin: 0 0 50px;
-    max-width: 326px;
-    min-width: 326px;
+    width: 100%;
 }
-
 
 .reg .regs {
     border: 2px solid #bdbcbc;
@@ -160,27 +160,24 @@ h2{
     margin: 0 0 50px;
 }
 
-.sob .sobt, .new .news{
+.sob .sobt, .new .news {
     border: 2px solid #bdbcbc;
     padding: 10px;
     text-decoration: none;
     text-align: left;
     margin: 0 auto 50px;
-    max-width: 786px;
-    min-width: 786px;
+    width: 100%;
 }
 
-.lek .leks{
+.lek .leks {
     background: #f4f4f4;
     padding: 10px;
     text-decoration: none;
     text-align: left;
     margin: 0 auto 50px;
-    max-width: 100%;
-    min-width: 100%;
 }
 
-.sot .social, .people .users, .new .beeinterns, .sob .sobtia, .lek .gray, .reg .register{
+.sot .social, .people .users, .new .beeinterns, .sob .sobtia, .lek .gray, .reg .register {
     margin: 5px 10px 0;
     font-weight: 500;
     padding-bottom: 10px;
@@ -188,86 +185,86 @@ h2{
     text-transform: uppercase;
 }
 
-.sot .sots li{
+.sot .sots li {
     display: inline-flex;
     text-align: center;
 }
 
-.sot .sots img{
+.sot .sots img {
     width: 100%;
     max-width: 45px;
 }
 
-.sot .sots .face{
+.sot .sots .face {
     padding-top: 10px;
-    margin: 10px 25px 0;
+    margin: 10px 0;
 }
 
-.sot .sots .h4, .people .user .h5, .new .news .h4{
+.sot .sots .h4, .people .user .h5, .new .news .h4 {
     color: #707070;
     font-weight: 400;
 }
 
-.people .user .h5, .new .news .h4{
+.people .user .h5, .new .news .h4 {
     text-align: left;
 }
 
-.new .news .h5{
+.new .news .h5 {
     text-align: left;
     color: #707070;
     margin: 15px 0 0 10px;
     font-weight: 400;
 }
 
-.people .user ul{
+.people .user ul {
     display: flex;
     flex-direction: column;
     margin: 50px 0 40px;
 }
 
-.people .user li, .new .news li{
+.people .user li, .new .news li {
     display: flex;
     align-items: center;
     margin: 10px 0 10px 20px;
 }
 
-.new .news li{
+.new .news li {
     margin: 10px 50px 10px 10px;
 }
 
-.people .user img{
+.people .user img {
     max-width: 67px;
 }
 
-.people .user .h4, .new .news .h3{
+.people .user .h4, .new .news .h3 {
     font-weight: 500;
     margin: 0 0 0 10px;
     text-align: left;
 }
 
-.sob .sobt .h4{
+.sob .sobt .h4 {
     font-weight: 500;
     text-align: left;
     margin: 10px 0 0;
 }
 
-.people .user .h5, .new .news .h4{
+.people .user .h5, .new .news .h4 {
     margin: 0 0 0 10px;
 }
 
-.sot .line, .people .line, .new .line, .sob .line, .lek .line{
+.sot .line, .people .line, .new .line, .sob .line, .lek .line {
     font-size: 0;
     margin: 0 10px 30px;
-    max-width: 350px;
+    width: 95%;
 }
 
-.reg .line{
+.reg .line {
     font-size: 0;
     margin: 0 10px 20px;
-    max-width: 350px;
+    width: 95%;
 }
 
-.new .line{
+.new .line {
     margin: 0 10px 5px;
 }
 
@@ -276,63 +273,63 @@ h2{
     vertical-align: middle;
 }
 
-.sot .line1{
+.sot .line1 {
     height: 3px;
     background: #333333;
     width: 51%;
     border-radius: 2px;
 }
 
-.sot .line2{
+.sot .line2 {
     height: 2px;
     background: #bdbcbc;
     width: 49%;
     border-radius: 2px;
 }
 
-.people .line1{
+.people .line1 {
     height: 3px;
     background: #333333;
     width: 49%;
     border-radius: 2px;
 }
 
-.people .line2{
+.people .line2 {
     height: 2px;
     background: #bdbcbc;
     width: 51%;
     border-radius: 2px;
 }
 
-.new .line1{
+.new .line1 {
     height: 3px;
     background: #333333;
     width: 63%;
     border-radius: 2px;
 }
 
-.new .line2{
+.new .line2 {
     height: 2px;
     background: #bdbcbc;
     width: 37%;
     border-radius: 2px;
 }
 
-.reg .line1{
+.reg .line1 {
     height: 3px;
     background: #333333;
     width: 75%;
     border-radius: 2px;
 }
 
-.reg .line2{
+.reg .line2 {
     height: 2px;
     background: #bdbcbc;
     width: 25%;
     border-radius: 2px;
 }
 
-.new .line3{
+.new .line3 {
     height: 2px;
     background: #bdbcbc;
     width: 98%;
@@ -342,35 +339,35 @@ h2{
     font-weight: 400;
 }
 
-.sob .line1{
+.sob .line1 {
     height: 3px;
     background: #333333;
-    width: 100%;
+    width: 48%;
     border-radius: 2px;
 }
 
-.lek .line1{
+.lek .line1 {
     height: 3px;
     background: #333333;
     width: 22%;
     border-radius: 2px;
 }
 
-.new .news .h3{
+.new .news .h3 {
     text-transform: uppercase;
 }
 
-.new .news ul{
+.new .news ul {
     display: flex;
     flex-direction: column;
     margin: 5px 0 20px;
 }
 
-.new .news img{
-   max-width: 104px;
+.new .news img {
+    max-width: 104px;
 }
 
-.sob .sobt ul{
+.sob .sobt ul {
     padding-left: 0;
     margin: 0 0 5px 0;
     display: flex;
@@ -378,20 +375,18 @@ h2{
     justify-content: space-between;
 }
 
-.sob .sobt li{
+.sob .sobt li {
     display: flex;
     flex-direction: column;
     align-items: stretch;
     margin: 10px;
-    max-width: 360px;
-    min-width: 360px;
 }
 
-.sob .sobt .div{
+.sob .sobt .div {
     height: 177px;
 }
 
-.sob .sobt .tile1{
+.sob .sobt .tile1 {
     height: 100%;
     width: 100%;
     background-image: url("./image/Tile-Big-01.png");
@@ -399,7 +394,7 @@ h2{
     background-repeat: round;
 }
 
-.sob .sobt .tile2{
+.sob .sobt .tile2 {
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -407,7 +402,7 @@ h2{
     background-image: url("./image/Tile-Big-02.png");
 }
 
-.sob .sobt .tile3{
+.sob .sobt .tile3 {
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -415,7 +410,7 @@ h2{
     background-image: url("./image/Tile-Big-03.png");
 }
 
-.sob .sobt .tile4{
+.sob .sobt .tile4 {
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -423,65 +418,60 @@ h2{
     background-image: url("./image/Tile-Big-04.png");
 }
 
-.sob .sobt .tile1 .h61{
+.sob .sobt .tile1 .h61 {
     background: #468eda;
     text-transform: uppercase;
     text-align: center;
-    width: 5%;
+    width: 55px;
     padding: 5px;
     margin-top: 155px;
     position: absolute;
 }
 
-.sob .sobt .tile2 .h62{
+.sob .sobt .tile2 .h62 {
     background: #5bc08c;
     text-transform: uppercase;
     text-align: center;
-    width: 4%;
+    width: 55px;
     padding: 5px;
     margin-top: 155px;
     position: absolute;
 }
 
-.sob .sobt .tile3 .h63{
+.sob .sobt .tile3 .h63 {
     background: #c075b8;
     text-transform: uppercase;
     text-align: center;
-    width: 4%;
+    width: 55px;
     padding: 5px;
     margin-top: 155px;
     position: absolute;
 }
 
-.sob .sobt .tile4 .h64{
+.sob .sobt .tile4 .h64 {
     background: #e1b173;
     text-transform: uppercase;
     text-align: center;
-    width: 6%;
+    width: 100px;
     padding: 5px;
     margin-top: 155px;
     position: absolute;
 }
 
-.sob .sobt .fix{
+.sob .sobt .fix, .sob .sobs .fix2 {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    width: 96%;
 }
 
-.sob .sobt .fix2{
-    display: flex;
-    flex-direction: row;
-}
-
-.sob .sobt .h5{
+.sob .sobt .h5 {
     text-align: left;
     color: #707070;
     margin-top: 10px;
     font-weight: 400;
 }
 
-.sob .sobt .a{
+.sob .sobt .a {
     display: flex;
     justify-content: center;
     background: #60b061;
@@ -492,36 +482,44 @@ h2{
     margin: 60px auto 0;
 }
 
-.lek .leks .li1{
+.lek .leks .li1 {
     background-image: url("./image/video-01.png");
-    width: 25%;
+    width: 300px;
+    background-size: cover;
+    background-repeat: round;
 }
 
-.lek .leks .li2{
+.lek .leks .li2 {
     background-image: url("./image/video-02.png");
-    width: 25%;
+    width: 300px;
+    background-size: cover;
+    background-repeat: round;
 }
 
-.lek .leks .li3{
+.lek .leks .li3 {
     background-image: url("./image/video-03.png");
-    width: 25%;
+    width: 300px;
+    background-size: cover;
+    background-repeat: round;
 }
 
-.lek .leks .li4{
+.lek .leks .li4 {
     background-image: url("./image/video-04.png");
-    width: 25%;
+    width: 300px;
+    background-size: cover;
+    background-repeat: round;
 }
 
-.lek .leks ul{
+.lek .leks ul {
     display: flex;
 }
 
-.lek .leks li{
+.lek .leks li {
     margin-bottom: 20px;
     height: 200px;
 }
 
-.reg .regs input{
+.reg .regs input {
     margin-bottom: 15px;
     margin-left: 5px;
     width: 90%;
@@ -531,17 +529,17 @@ h2{
     color: #333333;
 }
 
-.reg .regs h5{
+.reg .regs h5 {
     color: #707070;
     margin: 0 10px 15px;
     font-weight: 700;
 }
 
-.reg input:hover{
+.reg input:hover {
     border-color: #707070;
 }
 
-.reg input:active{
+.reg input:active {
     border: 2px solid #333333;
 }
 
@@ -549,7 +547,7 @@ h2{
     border: 2px solid #333333;
 }
 
-.reg button{
+.reg button {
     display: flex;
     justify-content: center;
     width: 36%;
@@ -561,10 +559,180 @@ h2{
     border-radius: 10px;
 }
 
-.reg button:hover{
+.reg button:hover {
     background-color: #58b483;
 }
 
-.reg button:active{
+.reg button:active {
     background-color: #4b966f;
+}
+
+@media (min-width: 414px) {
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .basement {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .pic, .im {
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .img {
+        flex-direction: column;
+    }
+
+    .pic .li, .im .li {
+        width: 100%;
+    }
+
+    .main0 .main, .lek .leks {
+        width: 1200px;
+        overflow-x: scroll;
+    }
+
+    .main0 .main::-webkit-scrollbar,
+    .lek .leks::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+
+    .sob_sot_people, .new_reg {
+        flex-direction: column;
+    }
+
+    .sob, .new, .sot, .people {
+        width: 100%;
+    }
+
+    .sot_people {
+        width: 100%;
+    }
+
+    .reg {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .sob .sobt .fix, .sob .sobs .fix2 {
+        flex-direction: column;
+    }
+
+    .sob .sobt li {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .basement {
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    .pic, .im {
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 50%;
+    }
+
+    .img {
+        flex-direction: row;
+    }
+
+    .pic .li, .im .li {
+        width: 99%;
+    }
+
+    .main0 .main, .lek .leks {
+        width: 1200px;
+        overflow-x: visible;
+    }
+
+    .sob_sot_people, .new_reg {
+        flex-direction: row;
+    }
+
+    .sob, .new {
+        width: 61%;
+    }
+
+    .reg, .sot_people {
+        width: 29%;
+    }
+
+    .sob .sobt .fix, .sob .sobs .fix2 {
+        flex-direction: row;
+    }
+
+    .sob .sobt li {
+        width: 49%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .basement {
+        width: 100%;
+        padding: 60px 0;
+    }
+
+    .pic, .im {
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 50%;
+    }
+
+    .img {
+        flex-direction: row;
+    }
+
+    .pic .li, .im .li {
+        width: 99%;
+    }
+
+    .main0 .main, .lek .leks {
+        width: 100%;
+        overflow-x: visible;
+    }
+
+    .sob_sot_people, .new_reg {
+        flex-direction: row;
+    }
+
+    .sob, .new {
+        width: 61%;
+    }
+
+    .reg, .sot_people {
+        width: 29%;
+    }
+
+    .sob .sobt .fix, .sob .sobs .fix2 {
+        flex-direction: row;
+    }
+
+    .sob .sobt li {
+        width: 49%;
+    }
 }
